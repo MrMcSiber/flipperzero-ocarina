@@ -104,8 +104,8 @@ int32_t ocarina_app(void* p) {
                     processing = false;
                     break;
 		case InputKeyMAX:
-		processing = false;
-		break;
+                    processing = false;
+                    break;
                 }
             } else if (event.type == InputTypeRelease) {
                 furi_hal_speaker_stop();
