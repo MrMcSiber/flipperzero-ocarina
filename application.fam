@@ -6,6 +6,6 @@ App(
     cdefines=["APP_OCARINA"],
     requires=["gui"],
     stack_size=1 * 1024,
-    fab_icon="ocarina_icon.png",
+    icon="ocarina_icon.png",
     order=30
 )
