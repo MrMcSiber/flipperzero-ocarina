@@ -104,6 +104,7 @@ int32_t ocarina_app(void* p) {
                     processing = false;
                     break;
 		case InputKeyMAX:
+		processing = false;
 		break;
                 }
             } else if (event.type == InputTypeRelease) {
